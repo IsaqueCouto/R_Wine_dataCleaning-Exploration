@@ -30,7 +30,8 @@ Burgundy %>%
   select_if(is.numeric) %>%
   chart.Correlation(); 
 ```
-  
+<img width="774" alt="Screenshot 2023-01-02 at 9 05 25 PM" src="https://user-images.githubusercontent.com/120685725/210293369-9cbf2380-14d0-4959-89e7-5b1494942481.png">
+
   
   
 
