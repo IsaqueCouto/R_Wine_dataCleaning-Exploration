@@ -24,7 +24,7 @@ This dataset came with 14 columns and 7500 rows
 ### Charts from the analysis 
 
 - Code to see the correlation between all the numeric values in a chart form using ggplot
-'''javascript
+'''
 Burgundy %>% 
   na.omit() %>%
   select_if(is.numeric) %>%
