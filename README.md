@@ -21,3 +21,17 @@ This dataset came with 14 columns and 7500 rows
 - [x] **DN**   : chr  : The typical density or specific gravity of the wine is generally between 1.080 and 1.090.
 
 
+### Charts from the analysis 
+
+- Code to see the correlation between all the numeric values in a chart form using ggplot
+'''javascript
+Burgundy %>% 
+  na.omit() %>%
+  select_if(is.numeric) %>%
+  chart.Correlation(); 
+  '''
+  
+  
+  
+
+
