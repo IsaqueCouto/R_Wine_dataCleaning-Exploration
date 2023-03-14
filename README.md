@@ -23,6 +23,7 @@ This dataset came with 14 columns and 7500 rows
 
 ### Charts from the analysis 
 
+- First we wanted to see which values correlated with one another if there were any correlations. 
 - Code to see the correlation between all the numeric values in a chart form using ggplot
 ```
 Burgundy %>% 
