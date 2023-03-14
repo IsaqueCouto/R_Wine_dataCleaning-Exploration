@@ -39,6 +39,8 @@ Burgundy %>%
 
 - Final results after analysis is that the year did not impact the price. There were very cheap old wine as well as expensive and newer made wines that were both cheap, expensive and moderatly priced. 
 
+<img width="779" alt="Screenshot 2023-01-02 at 11 22 15 PM" src="https://user-images.githubusercontent.com/120685725/210300067-af5abd0b-c0d7-4c38-9b85-5523774ac025.png">
+
 ```
 #Cluster Year and Price 
 
@@ -64,10 +66,15 @@ Year_PR$Best_Year[Year_PR$Best_Year==3] <- "Worse Year";
 plot(Year_PR[,c(1,2)], pch=21, bg = yearPrice$cluster * 2 + 3 );
 ```
 
-<img width="779" alt="Screenshot 2023-01-02 at 11 22 15 PM" src="https://user-images.githubusercontent.com/120685725/210300067-af5abd0b-c0d7-4c38-9b85-5523774ac025.png">
 
 
 - Cluster Graph to see which which region produced the most expensive wine 
+
+- After doing the cluster we found that the number 59 repeated a total of 76 times in the more expensive class. More than any other number 
+59 is the 59th level in the factor for Region which is Ribera del Duero. We can conclude that Ribera del Duero is the region that produces the most expensive wine 
+
+<img width="779" alt="Screenshot 2023-01-02 at 11 27 41 PM" src="https://user-images.githubusercontent.com/120685725/210300620-8a22ee0d-0e00-437b-b1f5-e3d1b71f14dd.png">
+
 ```
 #cluster to find Region with the most expesive wines 
 
@@ -116,14 +123,8 @@ str(Region);
 Region$REG <- factor(Region$REG);
 
 levels(Region$REG);
-
-# After doing the cluster we found that the number 59 repeated a total 
-#of 76 times in the more expensive class. More than any other number 
-# 59 is the 59th level in the factor for Region which is Ribera del Duero.
-# We can conclude that Ribera del Duero is the region that produces the most 
-# expensive wine 
 ```
-<img width="779" alt="Screenshot 2023-01-02 at 11 27 41 PM" src="https://user-images.githubusercontent.com/120685725/210300620-8a22ee0d-0e00-437b-b1f5-e3d1b71f14dd.png">
+
 
 
   
