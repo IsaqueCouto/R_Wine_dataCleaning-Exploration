@@ -38,7 +38,7 @@ Burgundy %>%
 
 ***
 
-- Cluster Graph with 3 levels to see if the year the wine was made impacted the price. 
+### Cluster Graph with 3 levels to see if the year the wine was made impacted the price. 
 
 - Final results after analysis is that the year did not impact the price. There were very cheap old wine as well as expensive and newer made wines that were both cheap, expensive and moderatly priced. 
 
@@ -74,7 +74,7 @@ plot(Year_PR[,c(1,2)], pch=21, bg = yearPrice$cluster * 2 + 3 );
 ***
 
 
-- Cluster Graph to see which which region produced the most expensive wine 
+### Cluster Graph to see which which region produced the most expensive wine 
 
 - After doing the cluster we found that the number 59 repeated a total of 76 times in the more expensive class. More than any other number 
 59 is the 59th level in the factor for Region which is Ribera del Duero. We can conclude that Ribera del Duero is the region that produces the most expensive wine 
