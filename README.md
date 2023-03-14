@@ -36,6 +36,8 @@ Burgundy %>%
 
 - Cluster Graph with 3 levels to see if the year the wine was made impacted the price. 
 
+- Final results after analysis is that the year did not impact the price. There were very cheap old wine as well as expensive and newer made wines that were both cheap, expensive and moderatly priced. 
+
 ```
 #Cluster Year and Price 
 
