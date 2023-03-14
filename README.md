@@ -36,7 +36,7 @@ Burgundy %>%
 
 
 
-
+***
 
 - Cluster Graph with 3 levels to see if the year the wine was made impacted the price. 
 
@@ -71,7 +71,7 @@ plot(Year_PR[,c(1,2)], pch=21, bg = yearPrice$cluster * 2 + 3 );
 
 
 
-
+***
 
 
 - Cluster Graph to see which which region produced the most expensive wine 
