@@ -35,6 +35,9 @@ Burgundy %>%
 
 
 
+
+
+
 - Cluster Graph with 3 levels to see if the year the wine was made impacted the price. 
 
 - Final results after analysis is that the year did not impact the price. There were very cheap old wine as well as expensive and newer made wines that were both cheap, expensive and moderatly priced. 
@@ -65,6 +68,9 @@ Year_PR$Best_Year[Year_PR$Best_Year==3] <- "Worse Year";
 
 plot(Year_PR[,c(1,2)], pch=21, bg = yearPrice$cluster * 2 + 3 );
 ```
+
+
+
 
 
 
